@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+  security:
+    basic:
+      enabled: false
+
+seimi:
+  crawler:
+    enabled: true
+    names: basic_h
+    enable-redisson-queue: false
+
+
+    #spring.main.allow-bean-definition-overriding=true
+    #include: []
+    #spring.security.basic.enabled=false
+
+    #seimi.crawler.enabled=true
+    #seimi.crawler.names=basic_a,basic_h
+    #seimi.crawler.enable-redisson-queue=false
+    #seimi.crawler.bloom-filter-expected-insertions=
+    #seimi.crawler.bloom-filter-false-probability=
+    #seimi.crawler.seimi-agent-host=
+    #seimi.crawler.seimi-agent-port=
